@@ -1,0 +1,19 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Microsoft\\jdk-17.0.20.101-hotspot"
+        },
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Users\\sande\\AppData\\Local\\jdks\\jdk-25.0.2",
+            "default": true
+        }
+    ],
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\Users\\sande\\AppData\\Local\\jdks\\jdk-25.0.2",
+        "PATH": "C:\\Users\\sande\\AppData\\Local\\jdks\\jdk-25.0.2\\bin;${env:PATH}"
+    }
+}
